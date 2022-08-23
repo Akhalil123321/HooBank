@@ -1,0 +1,23 @@
+.nav-cont{
+    width:var(--mainwidth);
+    max-width: 1380px;
+    padding: 2rem 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    width: 6rem;
+}
+.nav-cont>ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    min-width: 320px;
+    justify-content: space-between;
+}
+li:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}

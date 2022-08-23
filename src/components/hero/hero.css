@@ -1,0 +1,73 @@
+.hero-cont{
+    width: var(--mainwidth);
+    margin: auto;
+    display: flex;
+}
+.left-side{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.hero-discount{
+    width: fit-content;
+    background: var(--divgradient);
+    text-transform: uppercase;
+    padding:.5rem 1rem;
+    border-radius: 10px;
+}
+
+.hero-title-cont{
+    display: flex;
+    flex-direction: column;
+}
+.nav-pargraph{
+width: 55%;
+line-height:2.1rem;
+}
+.right-side{
+    width: 40%;
+    
+}
+.h-r-s-image{
+    width: 35rem;
+    position: absolute;
+    right: 0;
+}
+.ball{
+    background: var(--ballgradient);
+    z-index: 10;
+    border-radius: 50%;
+    position: absolute;
+}
+.ball-one{
+    width: 85px;
+    height: 85px;
+    right: 26.5rem;
+}
+.ball-two{
+    width: 55px;
+    height: 55px;
+    right: 9rem;
+    top: 25rem;
+}
+.ball-three{
+    width: 26px;
+    height: 26px;
+    right:27rem;
+    top: 28.8rem;
+}
+.counter{
+    width: var(--secondarywidth);
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+.number{
+    font-size: 1.8rem;
+}
