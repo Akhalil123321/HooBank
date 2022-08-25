@@ -33,7 +33,33 @@ line-height:2.1rem;
 .h-r-s-image{
     width: 35rem;
     position: absolute;
-    right: 0;
+    top: 30rem;
+    right: -20rem;
+}
+/* cards */
+.h-r-s-card1{
+    position: absolute;
+    width: 24.5rem;
+    z-index: 15;
+    opacity: .8;
+    right: 7rem;
+    top: 7.4rem
+}
+.h-r-s-card2{
+    position: absolute;
+    width: 27.5rem;
+    z-index: 10;
+    right: 5.4rem;
+    top: 10rem;
+    opacity: .8;
+}
+.h-r-s-card3{
+    position: absolute;
+    width: 19.8rem;
+    right: 9.2rem;
+    top: 17.5rem;
+    opacity: .8;
+    z-index: 5;
 }
 .ball{
     background: var(--ballgradient);
