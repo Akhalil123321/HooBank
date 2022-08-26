@@ -88,10 +88,22 @@
     font-size: 1.3rem;
     font-weight: 800;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 10rem;
 }
+.counter>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #ffffff;
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.counter>:nth-child(1){
+    border: none;
+}
 .number{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
