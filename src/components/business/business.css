@@ -1,0 +1,60 @@
+.b-cont{
+    width: var(--mainwidth);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+.b-l-s-cont{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.b-l-s-cont>button{
+    width: fit-content;
+}
+.b-r-s-cont{
+    width: 40%;
+}
+.b-r-s-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.b-r-s-cont>:nth-child(2){
+    background: var(--divgradient);
+}
+.b-card-one{
+    display: flex;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    cursor: pointer;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.b-card-one:hover{
+    background: var(--divgradient);
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+.b-icon-cont{
+    background:rgba(9, 151, 124, 0.1);
+    padding:1.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-icon-cont>img{
+    width: 2.2rem;
+}
+.b-card-one-conent{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+}

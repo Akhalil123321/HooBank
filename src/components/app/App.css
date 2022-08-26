@@ -5,8 +5,8 @@
   --maingradient:radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
   --btn-gradient: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
   --ballgradient: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
-  --secondary-gradient:linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
-  --divgradient:linear-gradient(125.17deg, #272727, #11101D);
+  --secondary-gradient:linear-gradient(153.47deg, rgba(179, 177, 177, 0) -341.94%, #14101D 95.11%);
+  --divgradient:linear-gradient(180deg, rgba(60, 60, 60, 0.4) 0%, rgba(180,180,180,.2) 35%, rgba(92,92,92,.3) 100%);
 }
 .main-title{
   font-size: 2rem;
@@ -25,9 +25,30 @@
   font-size: 4rem;
   font-weight: 900;
 }
+.medium{
+  font-size: 3.2rem;
+  font-weight: 900;
+}
 .white{
   color: #ffffff;
 }
+.main-pargraph{
+  width: 75%;
+  line-height:2.1rem;
+  font-size: 1.3rem;
+  }
 .gray{
   color: #A5A5A7;
 }
+.wider{
+  width: 85%;
+}
+button{
+  background: var(--btn-gradient);
+  color: #00040F;
+  border-radius: 10px;
+  padding:1rem 2rem;
+  font-size: 1.2rem;
+  font-weight:500;
+}
+

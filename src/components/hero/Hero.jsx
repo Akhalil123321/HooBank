@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import NumberCounter from 'number-counter';
 import robot from '../../images/robot.png'
 import card1 from '../../images/card1.webp'
 import card2 from '../../images/card2.webp'
@@ -23,9 +24,14 @@ const Hero = () => {
                         borderRadius: ["50%", "0%", "50%","0%", "50%"]
     }
     return (
-        <>
+        <div>
         <div className='hero-cont'>
-            <div className="left-side">
+            <motion.div 
+            className="left-side"
+            initial={{y:-0.25, opacity: 0}}
+            whileInView={{y:0, opacity: 1}}
+            transition={{type: 'spring', duration: 2}}
+            >
                 <div className='hero-discount'>
                     <span className='white'>20% </span>
                     <span className='gray'>discount for </span>
@@ -38,17 +44,17 @@ const Hero = () => {
                         <span className='main-title large'>Payment Method</span>
                     </div>
                     <div>
-                        <p className='nav-pargraph gray'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.</p>
-                        <p className='nav-pargraph gray'>We examine annual percentage rates, annual fees.</p>
+                        <p className='main-pargraph gray'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.</p>
+                        <p className='main-pargraph gray'>We examine annual percentage rates, annual fees.</p>
                     </div>
-            </div>
+            </motion.div>
             <div className="right-side">
                 <motion.img 
                 src={robot} 
                 alt="" 
                 className='h-r-s-image'
                 initial={{right:'-10rem', opacity: 0}}
-                whileInView={{right:'0rem', opacity: 1}}
+                animate={{right:'0rem', opacity: 1}}
                 transition={transition1}
                 />
                 <motion.img 
@@ -93,16 +99,20 @@ const Hero = () => {
             </div>
         </div>
             <div className='counter'>
-                <span className='number'>3800+</span>
+                <span className='number'>
+                    <NumberCounter end={3800} delay={1.5} preFix='+'/>
+                    </span>
                 <span className='grad'>user active</span>
                 <span>|</span>
-                <span className='number'>230+</span>
+                <span className='number'>
+                <NumberCounter end={230} delay={2} className="increment" postFix="+"/>
+                    </span>
                 <span className='grad'>trusted by company</span>
                 <span>|</span>
                 <span className='number'>$230M+</span>
                 <span className='grad'>transaction</span>
             </div>
-        </>
+        </div>
     )
 }
 

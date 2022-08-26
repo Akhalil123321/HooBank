@@ -2,6 +2,7 @@
     width: var(--mainwidth);
     margin: auto;
     display: flex;
+    margin-top: 2rem;
 }
 .left-side{
     width: 60%;
@@ -22,18 +23,15 @@
     display: flex;
     flex-direction: column;
 }
-.nav-pargraph{
-width: 55%;
-line-height:2.1rem;
-}
+
 .right-side{
     width: 40%;
     
 }
 .h-r-s-image{
-    width: 35rem;
+    width: 40rem;
     position: absolute;
-    top: 30rem;
+    top: 32rem;
     right: -20rem;
 }
 /* cards */
@@ -42,22 +40,22 @@ line-height:2.1rem;
     width: 24.5rem;
     z-index: 15;
     opacity: .8;
-    right: 7rem;
-    top: 7.4rem
+    right: 12rem;
+    top: 9.4rem
 }
 .h-r-s-card2{
     position: absolute;
     width: 27.5rem;
     z-index: 10;
-    right: 5.4rem;
-    top: 10rem;
+    right: 10.4rem;
+    top: 12rem;
     opacity: .8;
 }
 .h-r-s-card3{
     position: absolute;
     width: 19.8rem;
-    right: 9.2rem;
-    top: 17.5rem;
+    right: 14.2rem;
+    top: 19.5rem;
     opacity: .8;
     z-index: 5;
 }
@@ -70,19 +68,19 @@ line-height:2.1rem;
 .ball-one{
     width: 85px;
     height: 85px;
-    right: 26.5rem;
+    right: 33.5rem;
 }
 .ball-two{
     width: 55px;
     height: 55px;
-    right: 9rem;
-    top: 25rem;
+    right: 14rem;
+    top: 27rem;
 }
 .ball-three{
     width: 26px;
     height: 26px;
-    right:27rem;
-    top: 28.8rem;
+    right:32rem;
+    top: 30.8rem;
 }
 .counter{
     width: var(--secondarywidth);
@@ -92,7 +90,7 @@ line-height:2.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 .number{
     font-size: 1.8rem;
