@@ -1,0 +1,68 @@
+.billing-cont{
+    width: var(--mainwidth);
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.l-s-billing-cont{
+    width: 55%;
+    height: 35rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.bill-payment{
+    border-radius: 10px;
+    position: absolute;
+}
+.billing-payment1{
+    width: 17rem;
+    top: 0;
+    left: 17rem;
+    z-index: 5;
+}
+.billing-payment2{
+    width: 24rem;
+    top: 12rem;
+}
+.cheack-payment{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: fit-content;
+    padding: .8rem 2rem;
+    position: absolute;
+    top: 30rem;
+    left: 12rem;
+    z-index: 5;
+}
+.cheack-payment>span{
+    color: #00040F;
+    font-weight: 500;
+}
+.billing-check{
+    width: 2rem;
+}
+.r-s-billing-cont{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.bill-stores-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.bill-store{
+    width: 10rem;
+    border-radius: 10px;
+}
+.bill-store:hover{
+    box-shadow: 1px 8px 142px 15px rgba(0,246,255,0.34);
+    -webkit-box-shadow: 1px 8px 142px 15px rgba(0,246,255,0.34);
+    -moz-box-shadow: 1px 8px 142px 15px rgba(0,246,255,0.34);
+}
