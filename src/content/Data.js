@@ -2,6 +2,10 @@
 import star from '../images/Star.svg'
 import shield from '../images/Shield.svg'
 import send from '../images/Send.svg'
+import people01 from '../images/people01.png'
+import people02 from '../images/people02.png'
+import people03 from '../images/people03.png'
+
 export const features = [
   {
     id: "feature-1",
@@ -32,32 +36,32 @@ export const features = [
   },
 ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "The Digital Bank supports clients engaged in a variety of global capital market activities, bridging importers & exporters, businesses, and financiers.",
+    name: "Herman Jensen",
+    title: "Founder & Leader",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "I’m very impressed with the assistance provided by customer service at Woohoo Pay! Thank you so much to the customer service team at Woohoo Pay for making this process easy!",
+    name: "Steve Mark",
+    title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Whenever I have a question or need additional help, I’m able to get in contact with someone and get an answer quickly. I had a particularly positive experience this week and wanted to share.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: people03,
+  },
+];
 
 // export const stats = [
 //   {

@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../images/logo.svg'
+import { FaAlignJustify } from 'react-icons/fa';
 import './navBar.css'
 const NavBar = () => {
   return (

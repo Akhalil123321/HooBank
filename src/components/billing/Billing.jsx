@@ -10,6 +10,7 @@ const Billing = () => {
     return (
         <div className='billing-cont'>
             <div className="l-s-billing-cont">
+            <div className="blur line-blur"></div>
                 <motion.img 
                 src={payment1} 
                 alt="" 

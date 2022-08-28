@@ -8,6 +8,8 @@
 html{
   background-color: #00040F;
   overflow-x: hidden;
+  max-width: 1540px;
+  position: relative;
 }
 
 
