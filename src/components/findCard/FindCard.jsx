@@ -6,7 +6,7 @@ import methods from '../../images/Payment methods.jpg'
 import './findCard.css'
 const FindCard = () => {
     return (
-        <div className='findcard-cont'>
+        <div className='findcard-cont' id='solution'>
             <motion.div 
             className="l-s-findcard-cont"
             initial={{y:-0.25, opacity: 0}}

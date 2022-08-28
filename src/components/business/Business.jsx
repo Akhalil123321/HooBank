@@ -22,7 +22,7 @@ const Business = () => {
         </motion.div>
     ))
     return (
-        <section className='b-cont'>
+        <section className='b-cont' id='features'>
             <motion.div 
             className='b-l-s-cont'
             initial={{y:-0.25, opacity: 0}}

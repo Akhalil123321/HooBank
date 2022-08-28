@@ -6,7 +6,7 @@ import './hero.css'
 const Hero = () => {
 
     return (
-        <main>
+        <main id='home'>
             <div className='hero-cont'>
                 <div className="blur circle-blur hero-l-blur"></div>
                 <div className="blur hero-r-blur"></div>

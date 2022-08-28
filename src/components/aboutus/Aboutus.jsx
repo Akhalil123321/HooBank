@@ -25,7 +25,7 @@ const Aboutus = () => {
                     key={items.id}
                     cursorColor='transparent'
                     text={items.content}
-                    startDelay={800}
+                    startDelay={400}
                     typeSpeed={1}
                     textStyle={{ fontSize:'1.2rem',fontWeight: "100",color:'rgba(255, 255, 255,.8)'}}
                     />
@@ -42,7 +42,7 @@ const Aboutus = () => {
         </motion.div>
     ))
     return (
-        <div className='aboutus-cont'>
+        <div className='aboutus-cont' id='aboutUs'>
             <div className="blur circle-blur aboutus-blur"></div>
             <motion.div 
             className="aboutus-head-cont"
