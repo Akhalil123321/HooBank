@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-cont'>
             <div>
                 <img src={Logo} alt="" />
-                <p className='gray'>A new way to make the payments easy, reliable and secure.</p>
+                <p className='gray foot-cntent'>A new way to make the payments easy, reliable and secure.</p>
             </div>
             <div className='my-info'>
                 <div className='copyright'>

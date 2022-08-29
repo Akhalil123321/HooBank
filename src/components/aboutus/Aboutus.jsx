@@ -27,7 +27,11 @@ const Aboutus = () => {
                     text={items.content}
                     startDelay={400}
                     typeSpeed={1}
-                    textStyle={{ fontSize:'1.2rem',fontWeight: "100",color:'rgba(255, 255, 255,.8)'}}
+                    textStyle={{ 
+                        fontSize:'2.5vmin',
+                        fontWeight: "100",
+                        color:'rgba(255, 255, 255,.8)'
+                    }}
                     />
                 }
                 </p>

@@ -60,9 +60,13 @@ const FindCard = () => {
                     times: [0, 0.2, 0.5, 0.8, 1],
                 }}
                 ></motion.div>
-                <img src={methods} alt="" className='findcard-images findcard-image1'/>
-                <img src={chart} alt="" className='findcard-images findcard-image2'/>
+                <div className='findcard-images-cont'>
+                    <div>
                 <img src={scan} alt="" className='findcard-images findcard-image3'/>
+                <img src={chart} alt="" className='findcard-images findcard-image2'/>
+                    </div>
+                <img src={methods} alt="" className='findcard-images findcard-image1'/>
+                </div>
             </div>
         </div>
     )

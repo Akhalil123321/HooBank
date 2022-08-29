@@ -22,7 +22,7 @@ const Start = () => {
             <div className="start-now">
                 <div>
                     <h1 className='main-title small'>Let’s try our service now!</h1>
-                    <p className='gray'>
+                    <p className='gray start-p'>
                         Everything you need to accept card payments and grow your business anywhere on the planet.
                     </p>
                 </div>

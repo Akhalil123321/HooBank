@@ -66,3 +66,60 @@
     -webkit-box-shadow: 1px 8px 142px 15px rgba(0,246,255,0.34);
     -moz-box-shadow: 1px 8px 142px 15px rgba(0,246,255,0.34);
 }
+    @media screen and (max-width:900px) {
+        .billing-cont{
+            flex-direction: column-reverse;
+            gap: 10rem;
+        }
+        .l-s-billing-cont{
+            width: 100%;
+            height: 62vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .r-s-billing-cont{
+            width: 100%;
+        }
+        .billing-payment1{
+            width: 35vw;
+            top: 0;
+            left: 45%;
+            z-index: 5;
+        }
+        .billing-payment2{
+            width: 42vw;
+            top: 25vw;
+            left: 10%;
+        }
+        .cheack-payment{
+            font-size: 2.5vw;
+            top : 58vw;
+            left: 35%;
+        }
+        .bill-stores-cont{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .bill-store{
+            width: 50%;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .billing-payment1{
+            top: 0;
+            width: 50%;
+        }
+        .billing-payment2{
+            top: 12rem;
+            width: 60%;
+            left: 0;
+        }
+        .cheack-payment{
+            font-size: .9rem;
+            padding: .5rem 1rem;
+            border-radius: 5px;
+            top : 63.5vw;
+        }
+    }

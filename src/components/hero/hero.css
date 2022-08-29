@@ -108,3 +108,142 @@
 .number{
     font-size: 2.5rem;
 }
+@media screen and (max-width:900px) {
+    .hero-cont{
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 110%;
+        margin-top: 15rem;
+        position: relative;
+        height: 60vh;
+    }
+    .hero-discount{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+    .h-r-s-image{
+        position: absolute;
+        width: 65rem;
+        top: 38rem;
+    }
+    .h-r-s-card1{
+    width: 41rem;
+    right: 20rem;
+    top: -1rem;
+    }
+    .h-r-s-card2{
+        position: absolute;
+    right: 18rem;
+    width: 45rem;
+    top: 5rem;
+    }
+    .h-r-s-card3{
+    right: 24rem;
+    width: 33rem;
+    top: 18rem;
+    }
+    .ball{
+        background: var(--ballgradient);
+        z-index: 10;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .ball-one{
+        width: 70px;
+        height: 70px;
+        right:54rem;
+        top: -5rem;
+    }
+    .ball-two{
+        width: 40px;
+        height: 40px;
+        right: 23.5rem;
+        top: 31rem;
+    }
+    .ball-three{
+        width: 26px;
+        height: 26px;
+        right: 54rem;
+        top: 38rem;
+    }
+    .counter{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .counter>div{
+        border: none;
+        font-size: 2.5rem;
+    }
+    .number{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .hero-discount{
+        font-size: 1rem;
+        padding: .8rem 1.6rem;
+    }
+    .right-side{
+        margin-top: 8rem;
+        width: 122%;
+        height: 40vh;
+    }
+    .h-r-s-image{
+        position: absolute;
+        width: 38rem;
+        top: 23rem;
+    }
+    .h-r-s-card1{
+    width: 25rem;
+    right: 10rem;
+    top: 0rem;
+    }
+    .h-r-s-card2{
+        position: absolute;
+    right: 9rem;
+    width: 27rem;
+    top: 3rem;
+    }
+    .h-r-s-card3{
+    right: 13rem;
+    width: 19rem;
+    top: 11rem;
+    }
+    .ball{
+        background: var(--ballgradient);
+        z-index: 10;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .ball-one{
+        width: 50px;
+        height: 50px;
+        right: 30rem;
+        top: -4rem;
+    }
+    .ball-two{
+        width: 30px;
+        height: 30px;
+        right: 12.5rem;
+        top: 18rem;
+    }
+    .ball-three{
+        width: 20px;
+        height: 20px;
+        right:29rem;
+        top: 22rem;
+    }
+    .counter>div{
+        border: none;
+        font-size: 2rem;
+    }
+    .number{
+        font-size: 3rem;
+    }
+}
+

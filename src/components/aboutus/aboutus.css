@@ -69,3 +69,41 @@
     font-size: .9rem;
 }
 
+    @media screen and (max-width:900px) {
+        .aboutus-head-cont{
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .aboutus-pargraph{
+            width: 90%;
+            line-height:3rem;
+            font-size: 1.9rem;
+        }
+        .aboutus-tail-cont{
+            flex-direction: column;
+        }
+        .leader-card-one{
+            padding:5rem 4rem;
+        }
+        .cuote-icon{
+            font-size: 5rem;
+        }
+        .info-cont{
+            font-size: 2rem;
+        }
+        .type-writer{
+            min-height:14rem;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .aboutus-pargraph{
+            width: 90%;
+            line-height:2.1rem;
+            font-size: 1.6rem;
+        }
+        .type-writer{
+            min-height:10rem;
+        }
+    }
+
+

@@ -35,3 +35,32 @@
 .start-now>:nth-child(1)>p{
     width: 60%;
 }
+    @media screen and (max-width:900px) {
+        .platforms{
+            flex-direction: column;
+            gap: 5rem;
+        }
+        .platforms>img{
+            width: 25rem;
+            opacity: .5;
+        }
+        .start-now{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5rem;
+            padding: 4rem 5rem;
+        }
+        .start-now>:nth-child(1){
+            width: 100%;
+        }
+        .start-now>:nth-child(1)>p{
+            width: 100%;
+        }
+        .start-p{
+            font-size: 1.5rem;
+        }
+
+    }
+    @media screen and (max-width:400px) {
+
+    }

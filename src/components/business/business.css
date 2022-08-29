@@ -58,3 +58,43 @@
     line-height: 1.8rem;
     margin-top: 1rem;
 }
+@media screen and (max-width:900px) {
+    .b-cont{
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .b-l-s-cont{
+        width: 100%;
+    }
+    .b-r-s-cont{
+        width: 100%;
+    }
+    .b-card-one{
+        padding: 3rem 3rem;
+        gap: 1.5rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .b-icon-cont{
+        padding:1.2rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .b-icon-cont>img{
+        width: 2.8rem;
+    }
+    .b-card-one-conent{
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        line-height: 3rem;
+    }
+    }
+    @media screen and (max-width:400px) {
+        .b-card-one-conent{
+            font-size: 1.5rem;
+        }
+    }
+    

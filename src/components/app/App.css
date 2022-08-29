@@ -1,3 +1,10 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
 :root{
   --mainwidth:85%;
   --secondarywidth:83%;
@@ -115,6 +122,61 @@ button{
   /* background: rgba(0, 246, 255, .3); */
   background: rgba(210, 134, 251, 0.3);
   bottom: 0;
+}
+@media screen and (max-width:900px) {
+  html{
+    font-size: 8px;
+    width: 100vw;
+  }
+  .large{
+    font-size: 5rem;
+  }
+  .medium{
+    font-size: 4rem;
+    font-weight:900;
+    text-shadow: 2px 0 #ffffff;
+  }
+  .small{
+    font-size: 2.7rem;
+    font-weight:900;
+    text-shadow: 2px 0 #ffffff;
+  }
+  .main-pargraph{
+    width: 90%;
+    line-height:3rem;
+    font-size: 1.9rem;
+    }
+    .secondary-pargraph{
+    width: 90%;
+    line-height:3rem;
+    font-size: 1.9rem;
+}
+    button{
+      padding:1.5rem 3rem;
+      font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:400px) {
+  .main-title{
+    font-size: 3.2rem;
+  }
+  .main-pargraph{
+    width: 90%;
+    line-height:2.1rem;
+    font-size: 1.6rem;
+    }
+    .secondary-pargraph{
+      width: 90%;
+      line-height:2.1rem;
+      font-size: 1.6rem;
+  }
+  .small{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .medium{
+    font-size: 2.7rem;
+  }
 }
 
 

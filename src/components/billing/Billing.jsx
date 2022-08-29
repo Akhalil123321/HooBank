@@ -53,8 +53,8 @@ const Billing = () => {
                     offers the latest payment technologies.`}
                 </p>
                 <div className="bill-stores-cont">
-                <img src={apple} alt="" className='bill-store'/>
-                <img src={google} alt="" className='bill-store'/>
+                    <img src={apple} alt="" className='bill-store'/>
+                    <img src={google} alt="" className='bill-store'/>
                 </div>
             </motion.div>
         </div>

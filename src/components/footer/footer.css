@@ -49,3 +49,9 @@
 .foot-icon:hover{
     fill: #ffffff;
 }
+@media screen and (max-width:900px) {
+    .foot-cntent{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
