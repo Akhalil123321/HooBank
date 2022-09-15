@@ -1,8 +1,16 @@
 # HooBank
 
-## demo
+## Demo
 
 <a href='https://hoo-bank-1dm.pages.dev/'><img src='public/hooBank-site.png' width=1000vw/></a>
+
+## Computer View
+
+<img src='public/computer-view.png' width=1000vw/>
+
+## Mobile View
+
+<img src='public/mobile-view.png' width=1000vw/>
 
 # Getting Started with Create React App
 
