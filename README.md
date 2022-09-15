@@ -10,7 +10,7 @@
 
 ## Mobile View
 
-<img src='public/mobile-view.png' width=1000vw/>
+<img src='public/mobile-view.png' width=300vw/>
 
 # Getting Started with Create React App
 
